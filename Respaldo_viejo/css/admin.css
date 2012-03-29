@@ -1,0 +1,284 @@
+/*body {
+
+margin:10px auto 10px auto;
+padding: 0;
+font: 76% Verdana,Tahoma,Arial,sans-serif;
+/*background: #f4f4f4 url('../images/bg.gif') top center repeat-y;
+background: #f4f4f4;
+}
+
+#wrap {
+background: #ffffff;
+color: #303030;
+margin:10px auto 10px auto;
+width: 1100px;
+}
+
+#header {
+clear: both;
+margin: 16px 0 0 0;
+padding: 0;
+height: 45px;
+}
+
+#header h1 {
+/*width: 250px;
+margin: 0 0 10px 0;
+/*float: left;
+text-align: center;
+}
+
+#header p {
+width: 500px;
+float: right;
+text-align: center;
+color: #a0a0a0;
+margin: 0 0 10px 0;
+font-size: 0.8em;
+line-height: 1.2em;
+}
+
+
+#avmenu {
+clear: left;
+float: left;
+width: 150px;
+margin: 0 0 10px 0;
+padding: 0;
+font-size: 0.9em;
+}
+
+#avmenu ul {	
+list-style: none;
+width: 150px;
+margin: 0 0 20px 0;
+padding: 0;
+font-size: 1.1em;
+}	
+
+#avmenu li {
+margin-bottom: 4px;
+}
+
+#avmenu li a {
+font-weight: bold;
+height: 20px;
+text-decoration: none;
+color: #505050;
+display: block;
+padding: 6px 0 0 10px;
+background: #f4f4f4;
+border-left: 4px solid #cccccc;
+}	
+	
+#avmenu li a:hover {
+background: #eaeaea;
+color: #d21243;
+border-left: 4px solid #d21243;
+}
+/* color anterior menu #d21243
+.announce {
+margin: 10px 0 10px 0;
+padding: 10px;
+width: 130px;
+color: #505050;
+background-color: #f4f4f4;
+line-height: 1.3em;
+}
+
+#extras {
+float: right;
+width: 100px;
+margin: 0 0 10px 0;
+padding: 0;
+font-size: 0.9em;
+line-height: 1.5em;
+}
+
+#extras p {
+margin: 0 0 1.5em 0;
+}
+
+#content {
+margin: 0 110px 20px 160px;
+border-top: 1px solid #f0f0f0;
+border-left: 1px solid #f0f0f0;
+border-right: 1px solid #f0f0f0;
+padding: 0 10px 0 10px;
+line-height: 1.6em;
+text-align: left;
+}
+
+#content h2 {
+font-size: 4.5em;
+margin: 0 0 0.5em 0;
+}
+
+#content img {
+padding: 1px;
+display:inline;
+background: #cccccc;
+border: 4px solid #f0f0f0;
+}
+
+h3 {
+font-size: 1.3em;
+margin: 0 0 10px 0;
+}
+
+a {
+text-decoration: none;
+color: #d21243;
+}
+
+a:hover {
+text-decoration: underline;
+color: #d21243;
+}
+
+a img {
+border: 0;
+}
+
+#footer {
+clear: both;
+margin:10px auto 10px auto;
+padding: 10px 0 20px 0;
+border-top: 4px solid #f0f0f0;
+width: 1100px;
+text-align: center;
+color: #808080;
+font-size: 0.9em;
+}
+
+#footer a {
+color: #808080;
+text-decoration: none;
+}
+
+#footer a:hover {
+text-decoration: underline;
+}
+
+.left {
+margin: 10px 10px 5px 0;
+float: left;
+}
+
+.right {
+margin: 10px 0 5px 10px;
+float: right;
+}
+
+.textright {
+text-align: right;
+}
+
+.center {
+text-align: center;
+}
+
+.small {
+font-size: 0.8em;
+}
+
+.bold {
+font-weight: bold;
+}
+
+.hide {
+display: none;
+}
+#logo {
+	margin:10px 10px 10px 10px;
+	
+}
+
+.login {
+
+    margin-left: 250px;
+}
+
+/* forms */
+        /*
+form {
+	margin:3px;
+	padding:5px;
+	background-color:#f2f2f2;
+	border:1px solid #f0f0f0;
+}
+form p {
+	margin:12px 0;
+}
+form label {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:0.9em;
+}
+form  input,textarea {
+	border:1px solid #CCCCCC;
+	padding:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#d21243;
+
+}
+.button{
+    cursor: pointer;
+}*/
+
+body {
+
+font:100% Verdana, Arial, Helvetica, sans-serif;
+/*background: #f4f4f4 url('../images/bg.gif') top center repeat-y;*/
+background: #f4f4f4;
+}
+
+#wrap {
+margin:10px auto 0px auto;
+background: #ffffff;
+color: #303030;
+width: 1100px;
+}
+
+.button{
+    cursor: pointer;
+    margin:5px 0px;
+    padding:1px 1px 1px 1px;
+}
+.login {
+
+    margin: 50px auto 50px auto;
+}
+
+form {
+	margin:3px;
+	padding:5px;
+	background-color:#f2f2f2;
+	border:1px solid #CCCCCC;
+}
+form p {
+	margin:12px 0;
+}
+form label {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:0.9em;
+}
+form  input,textarea {
+	border:1px solid #CCCCCC;
+	padding:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#d21243;
+}
+
+
+#footer {
+margin: 10px auto 10px auto;
+clear: both;
+padding: 10px 0 10px 0;
+border-top: 2px solid #f0f0f0;
+width: 1100px;
+text-align: center;
+color: #808080;
+font-size: 0.9em;
+}

@@ -1,0 +1,64 @@
+/* These styles just pretty up the page a bit. */
+body {
+   /*font: 80.5%/1.2 Arial, Helvetica, sans-serif;*/
+   margin:10px auto 10px auto;
+   background-color: #fff; }
+ th{
+    text-align: left;
+    }
+a{
+    color: red;
+    }
+img{
+    cursor: pointer;
+    }
+
+#contenido{
+    margin: 20px auto auto 15px;
+}
+#titulo{
+    margin: 10px auto 25px 5px;
+    text-decoration:  underline;
+    font-weight: bold
+}
+#filas{
+     margin: 15px auto auto 0px;
+}
+#Tlineas th{
+    background:  orange;
+}
+
+.Tformulario input{
+    font-weight:  bold;
+    font-size: 12px;
+}
+.Tformulario td{
+    text-align: right;
+}
+.campo_vacio{
+    background-color: orange;
+}
+.campo_lleno{
+    background-color: white;
+}
+
+
+.salir{
+    color:black;
+}
+
+a:link {
+color: #000;
+}
+a:hover {
+color: #357;
+}
+a:active {
+color: #0000ff;
+}
+#Twrap td{
+    background: #fff;
+}
+#Twrap{
+    border-collapse: collapse;
+}
