@@ -14,7 +14,7 @@
 		<?php
 			if (!empty($menus)) {
 				foreach ($menus as $menu) {
-					echo "		
+					echo "
 				<tr>
 					<td>".$menu['Id']."</td>
 					<td>".$menu['Descripcion']."</td>

@@ -146,8 +146,7 @@
 					<input type="submit" name="btn_enviar" id="btn_enviar" value="Registrar Menú"/>
 				</span>
 			</td>
-		</tr>
-		
+		</tr>		
 	</table>
 </form>
 
